@@ -23,10 +23,14 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 p {
     margin: 1em 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-radius: 10px;
 }
 
 ul li {
@@ -48,6 +52,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #333;
+    font-size: 1.3em;
 }
 
 main {
@@ -63,26 +68,22 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1em;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
+    background: none;
 }
 
-/* Backgrounds for Specific Pages */
-body.index {
-    background-image: url('../images/lillyvalley.jpeg');
-}
-
-body.best_personal_video {
-    background-image: url('../images/cinemareel.jpeg');
-}
-
-body.pokemon_unite {
-    background-image: url('../images/pokemonunite.png');
+footer p {
+    background-color: #333;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
 }
 
 /* Media Queries for Responsive Design */
