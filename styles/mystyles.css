@@ -20,6 +20,10 @@ body.index header {
     background-color: #2A5B3D;
 }
 
+body.pokemon_unite header {
+    background-color: #4A4796;
+}
+
 body.best_personal_video header{
     background-color: #01142E;
 }
@@ -50,7 +54,11 @@ h2 {
 }
 
 body.best_personal_video h2 {
-    background-color: #99E4F1;
+    background-color: #67A2B3;
+}
+
+body.pokemon_unite h2 {
+    background-color: #FEF88D;
 }
 
 nav {
