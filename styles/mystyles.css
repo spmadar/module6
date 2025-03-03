@@ -112,6 +112,12 @@ body.best_personal_video {
     background-image: url('../images/cinemareel.jpeg');
 }
 
+.bpv-iframe-container {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
 body.pokemon_unite {
     background-image: url('../images/pokemonunite.png');
 }
