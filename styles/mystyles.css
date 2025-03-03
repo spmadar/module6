@@ -39,6 +39,7 @@ p {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
+    text-align: center;
 }
 
 ul li {
@@ -112,7 +113,7 @@ body.best_personal_video {
     background-image: url('../images/cinemareel.jpeg');
 }
 
-.bpv-iframe-container {
+body.bpv-iframe-container {
     display: flex;
     justify-content: center;
     margin: 2em 0;
