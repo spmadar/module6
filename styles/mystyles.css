@@ -151,23 +151,11 @@ header {
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 1em;
     position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
-    background: none;
-    z-index: 10;
-}
-
-footer p {
-    background-color: white;
-    padding: 0.5em 1em;
-    border-radius: 10px;
-    font-weight: bold;
-    color: black;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
 }
 
 body.index {
