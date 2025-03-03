@@ -19,29 +19,30 @@ body > div {
 h1 {
     font-family: 'Rockwell', serif;
     font-weight: 600;
+    margin-bottom: 1em;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
+    background-color: #ddd;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin: 1em 0;
 }
 
 p {
-    margin: 1em 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 1.2em;
-    justify-content: center;
+    margin: 1.5em 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5em;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
 }
 
 ul li {
     list-style-type: none;
-}
-
-nav {
-    background-color: #ddd;
 }
 
 nav ul {
@@ -50,16 +51,22 @@ nav ul {
     justify-content: center;
     background-color: #ddd;
     margin: 0;
+    border-radius: 10px;
 }
 
 nav ul li {
-    margin: 0 1em;
+    margin: 0 1.5em;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #555;
 }
 
 main {
@@ -69,7 +76,7 @@ main {
 header {
     background-color: #333;
     color: white;
-    padding: 1em;
+    padding: 1.5em;
     text-align: center;
     position: relative;
 }
@@ -81,8 +88,10 @@ footer {
     padding: 1em;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background: none;
+    z-index: 10;
 }
 
 footer p {
@@ -91,6 +100,7 @@ footer p {
     border-radius: 10px;
     font-weight: bold;
     color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Backgrounds for Specific Pages */
@@ -117,6 +127,11 @@ body.pokemon_unite {
         flex-direction: column;
         align-items: center;
     }
+
+    p {
+        padding: 1em;
+        margin: 1em 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -134,4 +149,9 @@ body.pokemon_unite {
         width: 100%;
         height: auto;
     }
+
+    h2 {
+        font-size: 1.5em;
+    }
 }
+
