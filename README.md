@@ -37,3 +37,5 @@ SIMPLE_WEBSITE/
 - **CSS3** (with media queries for responsiveness)
 - **Embedded Media** (YouTube iframe and Twitter widget)
 
+## Author
+Sophia Madar
