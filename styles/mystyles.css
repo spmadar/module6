@@ -87,6 +87,19 @@ footer p {
     color: white;
 }
 
+/* Backgrounds for Specific Pages */
+body.index {
+    background-image: url('../images/lillyvalley.jpeg');
+}
+
+body.best_personal_video {
+    background-image: url('../images/cinemareel.jpeg');
+}
+
+body.pokemon_unite {
+    background-image: url('../images/pokemonunite.png');
+}
+
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 900px) {
     body > div {
