@@ -20,35 +20,26 @@ h1 {
     font-family: 'Rockwell', serif;
     font-weight: 600;
     margin-bottom: 1em;
-    font-size: 2.5em;
-}
-
-nav {
-    background-color: #DDDDDD;
+    background-color: #2A5B3D;
+    color: white;
+    padding: 1em;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 2em;
+    background-color: #A9C899;
     padding: 0.5em;
-    margin: 0;
-}
-
-.content-container {
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 2em;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 2em auto;
-    max-width: 900px;
+    border-radius: 10px;
+    margin: 1em 0;
+    color: black;
 }
 
 p {
     margin: 1.5em 0;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 1.5em;
-    font-size: 1.2em;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     line-height: 1.6;
@@ -63,7 +54,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #ddd;
+    background-color: #A9C899;
     margin: 0;
     border-radius: 10px;
 }
@@ -80,16 +71,15 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #0b4329;
+    color: #555;
 }
 
 main {
     padding: 2em;
-    padding-bottom: 5em;
 }
 
 header {
-    background-color: #333;
+    background-color: #2A5B3D;
     color: white;
     padding: 1.5em;
     text-align: center;
@@ -118,6 +108,7 @@ footer p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Backgrounds for Specific Pages */
 body.index {
     background-image: url('../images/lillyvalley.jpeg');
 }
@@ -126,20 +117,17 @@ body.best_personal_video {
     background-image: url('../images/cinemareel.jpeg');
 }
 
-body.pokemon_unite {
-    background-image: url('../images/pokemonunite.png');
-}
-
-.bpv-iframe-container {
+body.bpv-iframe-container {
     display: flex;
     justify-content: center;
     margin: 2em 0;
 }
 
-body.pokemon_unite p {
-    background-color: rgba(255, 255, 255, 0.969);
+body.pokemon_unite {
+    background-image: url('../images/pokemonunite.png');
 }
 
+/* Media Queries for Responsive Design */
 @media only screen and (max-width: 900px) {
     body > div {
         max-width: calc(100% - 100px);
