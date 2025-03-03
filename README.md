@@ -15,7 +15,7 @@ This is a simple multi-page website created as part of a web design project. The
 
 ## File Structure
 ```
-SIMPLE_WEBSITE/
+module6/
 ├── images/
 │   ├── lillyvalley.jpeg
 │   ├── cinemareel.jpeg
@@ -25,6 +25,7 @@ SIMPLE_WEBSITE/
 │   └── pokemon_unite.html
 ├── styles/
 │   └── mystyles.css
+├── README.md
 └── index.html
 ```
 
