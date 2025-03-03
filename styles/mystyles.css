@@ -32,6 +32,15 @@ h2 {
     margin: 1em 0;
 }
 
+.content-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    max-width: 900px;
+}
+
 p {
     margin: 1.5em 0;
     background-color: rgba(255, 255, 255, 0.9);
@@ -72,6 +81,7 @@ nav ul li a:hover {
 
 main {
     padding: 2em;
+    padding-bottom: 5em;
 }
 
 header {
@@ -104,7 +114,6 @@ footer p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Backgrounds for Specific Pages */
 body.index {
     background-image: url('../images/lillyvalley.jpeg');
 }
@@ -113,17 +122,16 @@ body.best_personal_video {
     background-image: url('../images/cinemareel.jpeg');
 }
 
-body.bpv-iframe-container {
+body.pokemon_unite {
+    background-image: url('../images/pokemonunite.png');
+}
+
+.bpv-iframe-container {
     display: flex;
     justify-content: center;
     margin: 2em 0;
 }
 
-body.pokemon_unite {
-    background-image: url('../images/pokemonunite.png');
-}
-
-/* Media Queries for Responsive Design */
 @media only screen and (max-width: 900px) {
     body > div {
         max-width: calc(100% - 100px);
@@ -161,4 +169,3 @@ body.pokemon_unite {
         font-size: 1.5em;
     }
 }
-
