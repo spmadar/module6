@@ -1,10 +1,10 @@
-# Simple Website Project
+# Module 6 Website Project
 
 This is a simple multi-page website created as part of a web design project. The site consists of three main pages:
 
 - **About Me**
 - **Best Personal Video**
-- **A Brief History of Pokémon Unite**
+- **Pokémon Unite**
 
 ## Features
 - **Responsive Design:** Adjusts layout for desktop, tablet, and mobile devices.
